@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keyword" content="html,css.js,reactjs,nodejs">
+        <meta name="author" content="C.K.Bhalaji">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--<meta http-equiv="Refresh" content="5" url="10.07.2023(Monday).html">-->
+        <title>
+            11/07/2023(Tuesday)
+        </title>
+    </head>
+    <body>
+        <hr/>
+        <center>
+            <h4>Formating<br/>Entities<br/>List<br/>Tables<br/>Hyperlink<br/>Folder<br/>Images<br/>Metadata<br/>iFrame</h4>
+        </center>
+        <hr/>
+        <h1 id="first">Formating Tag and List</h1>
+        <h2>Order List</h2>
+        <h3>Number-1</h3>
+        <ol type="1" start="3">
+            <li><b>Bold</b></li>
+        </ol>
+        <h3>small albhabet</h3>
+        <ol type="a" start="3">
+            <li><i>italik</i></li>
+        </ol>
+        <h3>Big Alphabet</h3>
+        <ol type="A" start="3">
+            <li><em>Emphasize type of italik</em></li>
+        </ol>
+        <h3>Small Romannumaral</h3>
+        <ol type="i" start="3">
+            <li><mark>Highlight</mark></li>
+        </ol>
+        <h3>Big Romannumeral</h3>
+        <ol type="I" start="3">
+            <li><small>Small</small></li>
+        </ol>
+        
+        <h2>Unorder List</h2>
+        <h3>Delete</h3>
+        <ul type="disk">
+            <li><del>Strick</del></li>
+        </ul>
+        <h3>Inserted</h3>
+        <ul type="circle">
+            <li><u>Undeline</u></li>
+        </ul>
+        <h3>Subscript</h3>
+        <ul type="square">
+            <li><sub>subscript</sub></li>
+        </ul>
+        <h3>Suprescript</h3>
+        <ul type="none">
+            <li><sup>Subscript</sup></li>
+        </ul>
+        
+        <h2>Dtscription List</h2>
+        <dl>
+            <dt>Question</dt>
+            <dd>Answer</dd>
+        </dl>
+        <hr/>
+        <h1>Entities and Table</h1>
+        <table border="1">
+            <tr>
+                <th>Result</th>
+                <th>Description</th>
+                <th>Entity name</th>
+                <th>Entity number</th>
+            </tr>
+            <tr>
+                <td colspan="2">Non-breaking space</td>
+                <td>&nbsb;</td>
+                <td>&#160;</td>
+            </tr>
+            <tr>
+                <td> < </td>
+                <td>less than</td>
+                <td>&lt;</td>
+                <td>&#60;</td>
+            </tr>
+            <tr>
+                <td> > </td>
+                <td>greater than</td>
+                <td>&gt;</td>
+                <td>&#62;</td>
+            </tr>
+            <tr>
+                <td> & </td>
+                <td>ambressen</td>
+                <td>&amp;</td>
+                <td>&#38;</td>
+            </tr>
+            <tr>
+                <td> C </td>
+                <td>Copyright</td>
+                <td rowspan="2">&copy;</td>
+                <td>&#169;</td>
+            </tr>
+            <tr>
+                <td> $ </td>
+                <td>Indiantype</td>
+                <td>&#8899;</td>
+            </tr>
+        </table>
+        <hr/>
+        <h1>Hyperlink,Folder and Images</h1>
+        <h2>Ancher tag</h2>
+        <a href="#first">Move to first content</a><br/>
+        <a href=" ">Refresh</a><br/>
+        <a href="#">nothing happens</a><br/>
+        <a href="10.07.2023(Monday).html">Move to yesterday page</a><br/>
+        <a href="10.07.2023(Monday).html" target="_blank">Move to yesterday page in another page</a><br/>
+        <h2>Image tag</h2><br/>
+        <center>
+        <img src="assert/img/pika.jpeg" alt="image not found" style="height: 40%;width: 40%;"/><br/>
+        <img src="../raindrop.jpeg" alt="image not found" style="height: 40%;width: 40%;"/>
+        </center>
+        <hr/>
+        <h1>Meta data and iFrame</h1>
+        <center>
+        <iframe src="10.07.2023(Monday).html" style="height: 80%;width: 40%;"></iframe><br/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4GLiWmsKuJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br/>
+        <h2>Moving inside iFrame</h2><iframe src="10.07.2023(Monday).html" style="height: 80%;width: 40%;" name="move"></iframe><br/>
+        <a href="https://www.youtube.com/embed/4GLiWmsKuJg" target="move">Move insid th iframe</a>
+    </center>
+    </body>
+</html>
